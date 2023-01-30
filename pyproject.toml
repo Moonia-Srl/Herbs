@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "herbs"
+version = "1.0.0"
+description = "A cli tool to automate NFT minting to Solana blockchain"
+authors = ["Botika Srl"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^12.4.4"
+fire = "^0.4.0"
+requests = "^2.28.0"
+pydantic = "^1.9.1"
+base58 = "^2.1.1"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+pylint = "^2.14.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
